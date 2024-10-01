@@ -1,12 +1,22 @@
 /* Place CSS styles here */ 
 .logo { 
     width: 90px;
+} 
+
+label { 
+    display: block; 
+    margin-bottom: 4px;
+} 
+
+.form-input { 
+    border-radius: 16px; 
+    margin-bottom: 16px;
 }
 
 * {box-sizing: border-box}
 
 /* Full-width input fields */
-  input[type=text], input[type=password] {
+  input[class=email], input[class=psw] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
