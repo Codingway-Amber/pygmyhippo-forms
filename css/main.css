@@ -1,7 +1,53 @@
 /* Place CSS styles here */ 
-.logo { 
-    width: 90px;
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 24px;
 } 
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.logo { 
+    max-width: 90px;
+} 
+
+.form-buttons {
+  display: flex; 
+  flex-direction: column;
+  gap: 4px;
+} 
+
+@media (min-width: 800px) {
+  .form-buttons {
+    flex-direction: row;
+  }
+} 
+
+.moo-forms-items {
+  display: flex; 
+  gap: 16px;
+} 
+
+@media (min-width: 800px) {
+  .moo-forms-items {
+    flex-direction: row;
+  }
+}
+
+.moo-forms-items {
+  border: 1px solid; 
+  
+}
 
 .moo-forms-main { 
   max-width: 800px; 
