@@ -1,6 +1,7 @@
 /* Place CSS styles here */ 
 html {
-  font-size: 16px;
+  font-size: 16px; 
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -18,7 +19,7 @@ img {
 }
 
 .logo { 
-    max-width: 90px;
+  max-width: 90px;
 } 
 
 .form-buttons {
@@ -35,6 +36,7 @@ img {
 
 .moo-forms-items {
   display: flex; 
+  flex-direction: column;
   gap: 16px;
 } 
 
@@ -45,14 +47,17 @@ img {
 }
 
 .moo-forms-items {
-  border: 1px solid; 
+  border: 1px solid #808080; 
+  border-radius: 16px;
+  padding: 20px;
   
 }
 
 .moo-forms-main { 
   max-width: 800px; 
   margin-left: auto; 
-  margin-right: auto;
+  margin-right: auto; 
+  padding-bottom: 20px;
 }
 
 label { 
