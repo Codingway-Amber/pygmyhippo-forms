@@ -1,4 +1,3 @@
-
 // function handleClick(ev) {
 //     // Prevent the default action of the event
 //     ev.preventDefault();
@@ -30,4 +29,13 @@ button.addEventListener("click", (ev) => {
     // Perform action: add class to body element
     body.classList.add('form-submitted');
     window.scrollTo(0, 0);
-});
+}); 
+
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  }
